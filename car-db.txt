@@ -1,0 +1,18 @@
+CARS
+
+id - INT - PRIMARY_KEY - AUTOINCREMENT
+name - VARCHAR(15) - NOTNULL - UNIQUE
+description - TEXT - NULL
+year - YEAR - NOTNULL
+Kilometres - MEDIUMINT - NOTNULL
+consume - INT - NULL
+price - SMALLINT - NOTNULL
+image - VARCHAR - NOTNULL - DEFAULT(--/)
+fuel - VARCHAR(10) - NOTNULL
+category - VARCHAR(10)
+displacement(cilindrata) - SMALLINT - NULL
+Cv - INT - NULL
+ecology - VARCHAR(20) - NULL
+usury - FLOAT(3,1) - NOTNULL - DEFAULT(0)
+setup - VARCHAR - NULL
+ibrid - INT - NULL
