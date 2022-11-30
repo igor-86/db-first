@@ -2,6 +2,8 @@ CARS
 
 id - INT - PRIMARY_KEY - AUTOINCREMENT
 name - VARCHAR(15) - NOTNULL - UNIQUE
+housecar - VARCHAR(15) - NOTNULL
+gear - VARCHAR(15) - NULL
 description - TEXT - NULL
 year - YEAR - NOTNULL
 Kilometres - MEDIUMINT - NOTNULL
