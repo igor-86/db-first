@@ -1,20 +1,19 @@
 CARS
 
 id - INT - PRIMARY_KEY - AUTOINCREMENT
-name - VARCHAR(15) - NOTNULL - UNIQUE
-housecar - VARCHAR(15) - NOTNULL
-gear - VARCHAR(15) - NULL
-description - TEXT - NULL
+name - VARCHAR(15) - NOTNULL
+housecar - VARCHAR(15) - NOTNULL - INDEX
 year - YEAR - NOTNULL
 Kilometres - MEDIUMINT - NOTNULL
-consume - INT - NULL
-price - SMALLINT - NOTNULL
-image - VARCHAR - NOTNULL - DEFAULT(--/)
+price - DECIMAL(10,2) - NOTNULL
+image - VARCHAR(255) - NOTNULL - DEFAULT(--/)
 fuel - VARCHAR(10) - NOTNULL
-category - VARCHAR(10)
+category(tipo-veicolo) - VARCHAR(10) - NOTNULL
+
 displacement(cilindrata) - SMALLINT - NULL
-Cv - INT - NULL
+description - TEXT - NULLconsume - INT - NULLCv - INT - NULL
 ecology - VARCHAR(20) - NULL
-usury - FLOAT(3,1) - NOTNULL - DEFAULT(0)
-setup - VARCHAR - NULL
+usury - FLOAT(3,1) - NULL - DEFAULT(0)
+gear_trasmission - VARCHAR(15) - NULL
+optional_model - VARCHAR - NULL
 ibrid - INT - NULL
